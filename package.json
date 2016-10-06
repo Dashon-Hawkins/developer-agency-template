@@ -1,0 +1,28 @@
+{
+  "name": "Prisme",
+  "version": "1.0.0",
+  "description": "Prisme Technologies Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lleocastro/template-developer-agency"
+  },
+  "author": "leonardo_carvalho@outlook.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lleocastro/template-developer-agency/issues"
+  },
+  "homepage": "https://lleocastro.github.io/template-developer-agency/",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-sass": "~2.3.2",
+    "gulp-uglify": "~2.0.0",
+    "gulp-rename": "~1.2.2",
+    "gulp-sourcemaps": "~1.6.0",
+    "gulp-htmlmin": "~3.0.0"
+  }
+}

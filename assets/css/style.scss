@@ -1,0 +1,346 @@
+*{ outline: 0 !important; }
+body{ font-size: 12pt; color: #333; }
+em{ text-transform: none; }
+.container, .container-fluid{ padding: 0px; }
+.main{ overflow: hidden; }
+
+.loader{ display: none; margin-top: 5px; }
+.loader span{ font-family: "Open Sans"; font-weight: 300; font-size: 11pt !important; color: #fff; }
+
+#header-slider{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: auto;
+}
+
+.item{
+	min-height: 600px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.lightbox{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.caption{
+	position: relative;
+    width: 81%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    margin: 17% auto;
+}
+.caption h3{ 
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 40pt; 
+    text-transform: uppercase; 
+}
+.caption p{ 
+    font-family: "Open Sans";
+    font-weight: 300;
+    margin-top: 25px; 
+    font-size: 12pt; 
+    text-transform: uppercase; 
+    line-height: 26px; 
+}
+.caption .btn{
+    font-family: "Open Sans";
+    font-weight: 400;
+    display: block;
+    width: 222px;
+    font-size: 10pt;
+    padding:13px 7px;
+    border: 1px solid #6e6d6c;
+    border-radius: 7px;
+    margin: 50px auto;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.caption a{ display: block; color: #fff; text-decoration: none; }
+.caption .btn:hover{ border: 0px; background-color: rgba(0, 0, 0, 0.3); color: #fff; }
+.caption span{ color: #017fb5; }
+
+.navbar, .navbar-default, .navbar-fixed-top{
+	width: 100%;
+	height: 40px !important;
+	border: 1px solid transparent;
+	border-radius: 0px;
+}
+.navbar-default, .navbar-collapse{ 
+    background-color: #fff; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.logo{
+	position: absolute;
+	font-family: "Open Sans";
+  font-weight: 400;
+	font-size: 23pt;
+	text-decoration: none !important;
+	margin: 14px 8%;
+}
+
+.navbar ul{ margin: 11px 5%; text-align: right; }
+.nav li a{ font-family: "Open Sans"; font-weight: 400; font-size: 11pt; }
+.nav li a{ color: #000; }
+.logo{ color: #000 !important; }
+.navbar-toggle{ margin: 7px 3%; }
+
+.section-textbox{
+	  position: relative;	
+	  width: 80%;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-textbox h1{ font-size: 33pt; }
+.section-textbox h2{ position: relative; font-size: 14pt; line-height: 26px; }
+
+.info-warning{ font-size: 10pt; margin-top: 5px; }
+.info-warning strong{ font-size: 13pt; color: #FF1700; }
+.info-strong{ font-family: "Open Sans"; font-weight: 400; }
+
+.margin{ margin-top: 60px; }
+.top{ margin-top: 50px; }
+
+#best-solution .margin{ margin-top: 0px; }
+.intro{ padding: 70px 0px; }
+.intro-card{ width: 94%; margin: 0 auto; text-align: center; }
+.intro-card h1{ font-size: 14pt; font-family: "Open Sans"; font-weight: 400; }
+.intro-card p{ font-size: 11pt; font-family: "Open Sans"; font-weight: 300; line-height: 25px; }
+.intro-card button{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 11pt;
+    padding: 8px 5px;
+    border: 1px solid #6e6d6c;
+    border-radius: 5px;
+    background-color: #3D3D3B;
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 35%;
+}
+.intro-card button:hover{ background-color: #303330; }
+
+#services{ position: relative; padding: 70px 0px; background-color: #EDF0EF; }
+#services .margin{ margin-top: 20px; }
+.media{ width: 95%; margin: 0 auto !important; }
+.media-body h1{ font-family: "Open Sans"; font-weight: 400; font-size: 14pt; }
+.media-body p{ font-family: "Open Sans"; font-weight: 300; font-size: 11pt; line-height: 24px; }
+
+#consulting{
+	position: relative;
+	height: auto;
+	padding: 0px;
+	background-color: #0B4478;
+    background-image: url("../../img/consulting.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: "Open Sans";
+  font-weight: 300;
+	color: #fff;
+}
+#consulting > .lightbox{ position: relative; padding: 70px 30px; background-color: rgba(0, 0, 0, 0.9); }
+#consulting h1{ font-size: 26pt; font-family: "Open Sans"; font-weight: 400; }
+#consulting p{ font-size: 12pt; }
+#consulting input{ width: 100%; height: 50px; border-right: 5px; color: #000; margin-top: 10px; padding: 3px; }
+#consulting button{ margin-top: 10px; width: 100%; background-color: #FF6B1A; border: 1px solid transparent; }
+#consulting button:hover{ background-color: #FF571A; }
+#consulting span{ font-size: 8pt; color: #F2DFF2; }
+#consulting h3{ font-size: 17pt; margin-left: 42px; }
+#consulting ul{ list-style: none; }
+#consulting ul li{ padding: 3px; font-size: 11pt; }
+
+#ability{ height: auto; padding: 70px 0px; }
+#ability .margin{ margin-top: 5px; }
+
+.card{
+	width: 98%;
+    color: #76757A;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-right: 3px solid #CCE3DF;
+    border-bottom: 3px solid #CCE3DF;
+    margin: 0 auto;
+}
+.card h1{ 
+    color: #2C2C2E;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14pt !important; 
+    margin-left: 5px; 
+}
+.card p{ 
+    color: #414242; 
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 11pt; 
+    margin-top: 10px; 
+    margin-left: 5px; 
+    line-height: 24px;
+}
+
+.progress-bar{
+    width: 90%;
+    height: 23px;
+    margin-left: 5px;
+    border: 1px solid #E5E5E5;
+    color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 10pt;
+    padding: 0px;
+    background-color: #fff;
+    text-align: right !important;
+}
+.progress-bar-config{ height: 21px; border-radius: 5px; background-color: #36BA59; }
+.progress-bar .progress-bar-78{ width: 78%; }
+.progress-bar .progress-bar-93{ width: 93%; }
+.progress-bar .progress-bar-97{ width: 97%; }
+.progress-bar .progress-bar-84{ width: 84%; }
+
+#contact{
+  background-image: url("../../img/contact.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#contact .margin{ margin-top: 30px; }
+#contact > .lightbox{ position: relative; }
+#contact .lightbox > .container{ padding: 70px 0px; }
+#contact h1, #contact h2, #contact p, #contact ul li{ color: #fff; }
+#p-info{ font-family: "Open Sans"; font-weight: 300; font-size: 12pt; margin-left: 44px; line-height: 24px; }
+#contact ul{ list-style: none; }
+#contact ul li{ font-family: "Open Sans"; font-weight: 300; font-size: 11pt; padding: 5px; }
+.contact-form{ width: 90%; margin: 0 auto; }
+#contact input , textarea{
+	width: 100%;
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.1);
+    height: 50px !important;
+    border-radius: 5px;
+    border: 1px solid #666;
+    color: #666;
+    padding: 5px;
+    margin-top: 11px;
+}
+#contact textarea{ min-height: 180px; resize:none; }
+#contact input:hover , textarea:hover{ color: #fff; border: 1px solid #017fb5; }
+.btn-submit{
+    font-family: "Open Sans";
+    font-weight: 400;
+    display: block;
+    font-size: 12pt;
+    padding: 14px 30px;
+    border: 1px solid #6e6d6c;
+    border-radius: 5px;
+    background-color: #017fb5;
+    border-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 7px;
+}
+.btn-submit:hover{ background-color: #0061B5; }
+
+.separator-light{ height: 10px; background-color: #017fb5; }
+.separator-dark{ min-height: 30px; background-color: #333331; }
+
+.footer-inf{
+	  height: auto; 
+    background-color: #212120;
+    font-family: "Open Sans";
+    font-weight: 300;
+    color: #fff;
+    line-height: 24px;
+}
+.footer-inf > .container{ padding-top: 10px; padding-bottom: 50px; }
+
+.about-us{ width: 90%; margin: auto; padding: 10px; }
+.about-us h1{ font-size: 16pt; }
+.about-us p{ font-size: 11pt; }
+
+#social-contact ul{ position: relative; text-align: center; margin: auto; }
+#social-contact ul li{ display: inline-block; padding: 5px 10px; }
+
+#developed{ height: 50px; background-color: #fff; text-align: center; color: #000; }
+#developed p{ font-size: 9pt; margin-top: 15px; }
+
+
+@media screen and (max-width: 992px){
+  .caption{ width: 90%; margin-top: 23%; }
+  .caption h3{ font-size: 38pt; }
+  .logo{ margin-left: 5%; }
+  .navbar ul{ margin-right: 3%; }
+  .section-textbox{ width: 93%; }
+  .section-textbox h1{ font-size: 29pt; }
+  .intro-card{ width: 93%; }
+  .intro-card button{ width: 100%; }
+  .media{ width: 93%; }
+  #consulting h3{ margin-left: 0px; }
+  .card{ width: 93%; }
+  .contact-adress{ width: 99%; margin-top: 25px; margin-left: -17px; }
+  .about-us{ width: 95%; text-align: center; padding: 10px; }
+}
+
+@media screen and (max-width: 768px){
+  .caption{ margin-top: 24%; }
+  .caption h3{ font-size: 28pt; }
+  .logo{ margin: 0px 7%; }
+  .navbar-toggle{ margin-right: 6%; }
+  .section-textbox{ width: 97%; }
+  .section-textbox h1{ font-size: 23pt; }
+  .intro, #services, #ability, #contact .lightbox > .container{ padding: 50px 0px; }
+  #consulting > .lightbox{ padding: 50px 15px; }
+  #consulting h1{ font-size: 23pt; }
+}
+
+@media screen and (max-width: 665px){
+  #consulting .block-none{ display: none; }
+}
+
+@media screen and (max-width: 450px){
+  .logo{ font-size: 19pt; }
+  .caption{ margin-top: 29%; }
+  .caption h3{ font-size: 30pt; }
+  .caption p{ font-size: 11pt; }
+  .caption .btn{ width: 180px; }
+  .section-textbox{ width: 90%; text-align: center; }
+  #ability .section-textbox{ text-align: left; }
+  .section-textbox h2{ font-size: 13pt; }
+  #consulting h1{ font-size: 20pt; }
+  .media{ width: 93%; }
+  .contact-adress{margin-top: 25px; margin-left: -28px; }
+  .about-us{ text-align: left; }
+  
+  .center span{ font-size: 50pt; }
+  .center p{ font-size: 14pt; }
+}
